@@ -57,3 +57,4 @@ def test_heuristic_fingerprinting():
     # Second encounter -> False (duplicate/stale)
     is_fresh_second, _ = normalizer.evaluate_freshness_heuristic(content, url)
     assert is_fresh_second is False
+
