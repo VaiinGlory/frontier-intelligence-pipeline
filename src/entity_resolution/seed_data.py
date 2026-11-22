@@ -55,3 +55,4 @@ SEED_AI_STARTUPS = [
     {"canonical_name": "Cohere Health", "website": "https://coherehealth.com", "domain": "coherehealth.com", "aliases": ["Cohere Health Inc"]},
     {"canonical_name": "Hippocratic AI", "website": "https://hippocraticai.com", "domain": "hippocraticai.com", "aliases": ["Hippocratic", "Hippocratic AI Inc"]}
 ]
+

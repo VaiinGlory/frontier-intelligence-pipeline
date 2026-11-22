@@ -221,3 +221,4 @@ class EntityResolver:
     def get_mapping_log(self) -> List[MappingLogEntry]:
         """Returns the complete audit log of entity mappings."""
         return self.mapping_log
+

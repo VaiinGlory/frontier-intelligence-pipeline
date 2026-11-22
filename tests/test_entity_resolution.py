@@ -57,3 +57,4 @@ def test_mapping_log_generation():
     assert log[0].canonical_name == "OpenAI"
     assert log[1].raw_name == "Anthropic PBC"
     assert log[1].canonical_name == "Anthropic"
+
