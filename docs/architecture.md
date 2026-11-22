@@ -209,3 +209,4 @@ $$\text{Pipeline: Raw String} \xrightarrow{\text{Unicode Normalization}} \xright
 3. **Fuzzy String Matching:** Calculates normalized edit distance ratio:
    $$\text{Score}(s_1, s_2) = 1.0 - \frac{\text{LevenshteinDistance}(s_1, s_2)}{\max(\text{len}(s_1), \text{len}(s_2))}$$
    Scores $\ge 0.82$ canonicalize automatically; lower confidence candidates are flagged for asynchronous human-in-the-loop audit in the `entity_mapping_log`.
+
