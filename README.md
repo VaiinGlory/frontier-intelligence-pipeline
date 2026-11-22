@@ -144,7 +144,7 @@ frontier-intelligence-pipeline/
 ### 1. Installation
 
 ```bash
-git clone https://github.com/your-username/frontier-intelligence-pipeline.git
+git clone https://github.com/VaiinGlory/frontier-intelligence-pipeline.git
 cd frontier-intelligence-pipeline
 
 # Create virtual environment
