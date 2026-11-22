@@ -86,3 +86,4 @@ class StartupsCrawler(BaseAsyncCrawler):
 
         logger.info(f"Successfully acquired {len(records)} verified startup records.")
         return records
+

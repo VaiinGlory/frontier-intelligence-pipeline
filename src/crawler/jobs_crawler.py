@@ -200,3 +200,4 @@ class JobsCrawler(BaseAsyncCrawler):
 
         logger.info(f"Fresh jobs ingestion completed: Found {len(all_jobs)} verified 24-hour job openings.")
         return all_jobs
+

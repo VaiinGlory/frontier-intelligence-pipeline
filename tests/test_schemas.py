@@ -81,3 +81,4 @@ def test_job_schema_structure():
     assert record["recordType"] == "JOB"
     assert isinstance(record["content"]["is_remote"], bool)
     assert record["content"]["role_family"] in ["Engineering", "Research", "Product", "Design", "Go-To-Market"]
+

@@ -121,3 +121,4 @@ class MasterPipeline:
             await products_crawler.close()
             await news_crawler.close()
             await jobs_crawler.close()
+

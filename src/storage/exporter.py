@@ -165,3 +165,4 @@ class DataExporter:
                 ])
         logger.info(f"Exported {len(entries)} entity resolution logs to {filepath}")
         return filepath
+

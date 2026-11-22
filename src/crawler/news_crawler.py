@@ -144,3 +144,4 @@ class NewsCrawler(BaseAsyncCrawler):
                 items.append({"title": title.strip(), "link": link.strip(), "pub_date": pub_date.strip(), "description": desc.strip()})
 
         return items
+

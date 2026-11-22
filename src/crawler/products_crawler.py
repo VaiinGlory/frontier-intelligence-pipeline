@@ -106,3 +106,4 @@ class ProductsCrawler(BaseAsyncCrawler):
 
         logger.info(f"Successfully acquired {len(records)} verified AI product records.")
         return records
+
