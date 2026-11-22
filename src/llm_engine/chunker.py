@@ -132,3 +132,4 @@ class SmartChunker:
         chunks = self.chunk_text(text, max_chars=self.max_chars)
         # For single entity extraction, chunk 0 retains title, metadata, and opening core body
         return chunks[0] if chunks else ""
+
